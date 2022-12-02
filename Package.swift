@@ -9,9 +9,12 @@ let package = Package(
     products: [
         .library(name: "Storage", targets: ["Storage"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/Square/Valet", from: "4.0.0"),
+    ],
     targets: [
-        .target(name: "Storage", dependencies: [], path: "Sources"),
-        .testTarget(name: "StorageTests", dependencies: ["Storage"], path: "Tests"),
+        .target(name: "Storage", dependencies: [], path: "Sources/Core"),
+        .target(name: "StoragePlus", dependencies: ["Storage", "Valet"], path: "Sources/Storages"),
+        .testTarget(name: "StorageTests", dependencies: ["StoragePlus"], path: "Tests"),
     ]
 )

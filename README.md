@@ -6,8 +6,9 @@
 [![codecov][codecov status badge]][codecov status]
 ![Platforms][platforms badge]
 
-## Why would I use this?
-
+<!--## Why would I use this?-->
+<!---->
+<!--WIP-->
 
 ## Installation
 
@@ -24,6 +25,8 @@ If working in an Xcode project select `File->Add Packages...` and search for the
 `https://github.com/JARMourato/Storage.git`
 
 ## Usage
+
+WIP Documentation
 
 ## Contributions
 
