@@ -3,7 +3,7 @@
 [![Build Status][build status badge]][build status]
 [![codebeat badge][codebeat status badge]][codebeat status]
 [![codeclimate badge][codeclimate status badge]][codeclimate status]
-[![codecov][codecov status badge]][codecov status]
+<!--[![codecov][codecov status badge]][codecov status]-->
 ![Platforms][platforms badge]
 
 <!--## Why would I use this?-->
@@ -46,6 +46,6 @@ João ([@_JARMourato](https://twitter.com/_JARMourato))
 [codebeat status badge]: https://codebeat.co/badges/ad4bc157-885d-4c7a-897b-f381115de50f
 [codeclimate status]: https://codeclimate.com/github/JARMourato/Storage/maintainability
 [codeclimate status badge]: https://api.codeclimate.com/v1/badges/6a699c2287cf4e3b0cb8/test_coverage
-[codecov status]: https://codecov.io/gh/JARMourato/Storage
-[codecov status badge]: 
+<!--[codecov status]: https://codecov.io/gh/JARMourato/Storage-->
+<!--[codecov status badge]: -->
 [platforms badge]: https://img.shields.io/static/v1?label=Platforms&message=iOS%20|%20macOS%20|%20tvOS%20|%20watchOS%20&color=brightgreen
