@@ -8,6 +8,7 @@ let package = Package(
     platforms: [.iOS(.v13), .macOS(.v12), .watchOS(.v6), .tvOS(.v13)],
     products: [
         .library(name: "Storage", targets: ["Storage"]),
+        .library(name: "StoragePlus", targets: ["StoragePlus"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Square/Valet", from: "4.0.0"),
