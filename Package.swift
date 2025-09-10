@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "StoragePlus", targets: ["StoragePlus"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Square/Valet", from: "4.0.0"),
+        .package(url: "https://github.com/Square/Valet", from: "5.0.0"),
     ],
     targets: [
         .target(name: "Storage", dependencies: [], path: "Sources/Core"),
